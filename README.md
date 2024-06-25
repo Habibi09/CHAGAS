@@ -36,7 +36,5 @@
 ###### **3. ¿Qué quisieras hacer con estos datos?**
 ###### - Alinear y comparar las secuencias para identificar variantes genéticas entre los diferentes linajes.
 ###### - Construir árboles filogenéticos para explorar las relaciones evolutivas y la diversidad genética entre los linajes.
-###### - Analizar la estructura poblacional y los patrones de diversidad genética dentro y entre las poblaciones del parásito.
-###### - Correlacionar los resultados obtenidos con información sobre la distribución geográfica, vectores, reservorios y manifestaciones clínicas asociadas a cada linaje.
 
 
