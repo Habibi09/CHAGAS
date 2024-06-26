@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IQ-TREE multicore version 2.3.4 COVID-edition for Windows 64-bit built Apr 27 2024
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
 Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
@@ -62,3 +63,69 @@ For your convenience alignment with unique sequences printed to alin.aln-fasta.u
 
 Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
 ERROR: Wrong model name +G -b 1000
+=======
+IQ-TREE multicore version 2.3.4 COVID-edition for Windows 64-bit built Apr 27 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-UME8M8L (AVX512, FMA3, 11 GB RAM)
+Command: C:\Users\usuario\OneDrive\Escritorio\iqtree-2.3.4-Windows\iqtree-2.3.4-Windows\bin\iqtree2.exe -s alin.aln-fasta -m GTR+G -b 1000
+Seed:    180849 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jun 26 10:10:59 2024
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file alin.aln-fasta ... Fasta format detected
+Reading fasta file: done in 0.0016675 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 24 sequences with 1380 columns, 52 distinct patterns
+94 parsimony-informative, 24 singleton sites, 1262 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 6.47e-005 secs
+   1  KC960001.1    0.00%    passed     74.16%
+   2  KC960002.1    0.00%    passed     74.16%
+   3  KC960005.1    0.00%    passed     74.16%
+   4  KC960006.1    0.00%    passed     74.16%
+   5  KC960008.1    0.00%    passed     74.16%
+   6  KC960009.1    0.00%    passed     74.16%
+   7  KC960010.1    0.00%    passed     74.16%
+   8  KC960003.1    0.00%    passed     90.80%
+   9  KC960004.1    0.00%    passed     90.80%
+  10  KC960007.1    0.00%    passed     90.80%
+  11  KC960011.1    0.00%    passed     82.20%
+  12  KC959992.1    0.00%    passed     91.84%
+  13  KC959993.1    0.00%    passed     91.84%
+  14  KC959994.1    0.00%    passed     91.84%
+  15  KC959988.1    0.07%    passed     92.07%
+  16  KC959989.1    0.14%    passed     90.57%
+  17  KC959991.1    0.14%    passed     91.85%
+  18  KC959998.1    0.07%    passed     92.73%
+  19  KC959999.1    0.07%    passed     93.19%
+  20  KC960000.1    0.07%    passed     93.19%
+  21  KC959990.1    0.00%    passed     93.53%
+  22  KC959997.1    0.00%    passed     93.53%
+  23  KC959995.1    0.07%    passed     91.54%
+  24  KC959996.1    0.00%    passed     93.26%
+****  TOTAL         0.03%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KC960002.1 is identical to KC960001.1 but kept for subsequent analysis
+NOTE: KC960004.1 is identical to KC960003.1 but kept for subsequent analysis
+NOTE: KC959993.1 is identical to KC959992.1 but kept for subsequent analysis
+NOTE: KC960000.1 is identical to KC959999.1 but kept for subsequent analysis
+NOTE: KC959997.1 is identical to KC959990.1 but kept for subsequent analysis
+NOTE: 7 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KC960005.1 (identical to KC960001.1) is ignored but added at the end
+NOTE: KC960006.1 (identical to KC960001.1) is ignored but added at the end
+NOTE: KC960008.1 (identical to KC960001.1) is ignored but added at the end
+NOTE: KC960009.1 (identical to KC960001.1) is ignored but added at the end
+NOTE: KC960010.1 (identical to KC960001.1) is ignored but added at the end
+NOTE: KC960007.1 (identical to KC960003.1) is ignored but added at the end
+NOTE: KC959994.1 (identical to KC959992.1) is ignored but added at the end
+Alignment was printed to alin.aln-fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to alin.aln-fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+ERROR: Wrong model name +G -b 1000
+>>>>>>> 7656bc860b91c6cc87e061e5a255b59c6ce8f245
