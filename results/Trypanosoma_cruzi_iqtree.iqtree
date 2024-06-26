@@ -1,0 +1,203 @@
+IQ-TREE 2.3.4 COVID-edition built Apr 27 2024
+
+Input file name: results/alin.aln-fasta.uniqueseq.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 198004
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 17 sequences with 1380 nucleotide sites
+Number of constant sites: 1262 (= 91.4493% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1262 (= 91.4493% of all sites)
+Number of parsimony informative sites: 94
+Number of distinct site patterns: 52
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.1046
+  A-G: 4.2319
+  A-T: 0.3230
+  C-G: 2.7318
+  C-T: 13.6466
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2249
+  pi(C) = 0.2975
+  pi(G) = 0.3304
+  pi(T) = 0.1472
+
+Rate matrix Q:
+
+  A   -0.6754    0.1251    0.5322   0.01809
+  C   0.09454    -1.203    0.3436    0.7644
+  G    0.3622    0.3093   -0.7275   0.05602
+  T   0.02765     1.545    0.1258    -1.698
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.3048
+Gamma shape alpha: 1.012
+
+ Category  Relative_rate  Proportion
+  0         0              0.3048
+  1         0.2005         0.1738
+  2         0.691          0.1738
+  3         1.441          0.1738
+  4         3.421          0.1738
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2563.9282 (s.e. 57.9022)
+Unconstrained log-likelihood (without tree): -2519.7432
+Number of free parameters (#branches + #model parameters): 41
+Akaike information criterion (AIC) score: 5209.8565
+Corrected Akaike information criterion (AICc) score: 5212.4305
+Bayesian information criterion (BIC) score: 5424.2799
+
+Total tree length (sum of branch lengths): 0.1000
+Sum of internal branch lengths: 0.0712 (71.2343% of tree length)
+
+WARNING: 6 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'KC960001.1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++**KC960001.1
+|
++**KC960002.1
+|
+|        +**KC960003.1
+|     +--| (90.6/95)
+|     |  +**KC960004.1
++-----| (99.2/100)
+      |                                       +-----------KC960011.1
+      +---------------------------------------| (100/100)
+                                              |           +**KC959992.1
+                                              |        +--| (88.4/89)
+                                              |        |  +**KC959993.1
+                                              |     +**| (74.2/74)
+                                              |     |  |  +**KC959988.1
+                                              |     |  +--| (75.9/79)
+                                              |     |     +**KC959989.1
+                                              +-----| (95.4/97)
+                                                    |              +**KC959991.1
+                                                    |           +**| (0/15)
+                                                    |           |  +**KC959997.1
+                                                    |        +**| (0/34)
+                                                    |        |  +**KC959990.1
+                                                    |     +**| (0/45)
+                                                    |     |  +**KC959998.1
+                                                    |  +--| (96.2/99)
+                                                    |  |  |  +**KC959999.1
+                                                    |  |  +**| (0/84)
+                                                    |  |     +**KC960000.1
+                                                    +--| (87.3/74)
+                                                       |  +--KC959995.1
+                                                       +**| (0/44)
+                                                          +**KC959996.1
+
+Tree in newick format:
+
+(KC960001.1:0.0000010000,KC960002.1:0.0000010000,((KC960003.1:0.0000010000,KC960004.1:0.0000010000)90.6/95:0.0039521605,(KC960011.1:0.0167887204,(((KC959992.1:0.0000010000,KC959993.1:0.0000010000)88.4/89:0.0014485408,(KC959988.1:0.0000010000,KC959989.1:0.0007231385)75.9/79:0.0007284339)74.2/74:0.0006391034,(((((KC959991.1:0.0000010000,KC959997.1:0.0000010000)0/15:0.0000010000,KC959990.1:0.0000010000)0/34:0.0000010000,KC959998.1:0.0000010000)0/45:0.0000010000,(KC959999.1:0.0000010000,KC960000.1:0.0000010000)0/84:0.0000010000)96.2/99:0.0029273289,(KC959995.1:0.0021772068,KC959996.1:0.0000010000)0/44:0.0000010000)87.3/74:0.0015367292)95.4/97:0.0081671110)100/100:0.0520047949)99.2/100:0.0088803580);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2563.965274
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--KC960001.1
+|
++--KC960002.1
+|
+|        +--KC960003.1
+|     +--| (95)
+|     |  +--KC960004.1
++-----| (100)
+      |                                       +-----------KC960011.1
+      +---------------------------------------| (100)
+                                              |           +--KC959992.1
+                                              |        +--| (89)
+                                              |        |  +--KC959993.1
+                                              |     +--| (74)
+                                              |     |  |  +--KC959988.1
+                                              |     |  +--| (79)
+                                              |     |     +--KC959989.1
+                                              +-----| (97)
+                                                    |           +--KC959991.1
+                                                    |        +--| (34)
+                                                    |        |  |  +--KC959990.1
+                                                    |        |  +--| (39)
+                                                    |        |     +--KC959997.1
+                                                    |     +--| (45)
+                                                    |     |  +--KC959998.1
+                                                    |  +--| (99)
+                                                    |  |  |  +--KC959999.1
+                                                    |  |  +--| (84)
+                                                    |  |     +--KC960000.1
+                                                    +--| (74)
+                                                       |  +--KC959995.1
+                                                       +--| (44)
+                                                          +--KC959996.1
+
+
+Consensus tree in newick format: 
+
+(KC960001.1:0.0000024148,KC960002.1:0.0000024148,((KC960003.1:0.0000024148,KC960004.1:0.0000024148)95:0.0039522015,(KC960011.1:0.0167893827,(((KC959992.1:0.0000024148,KC959993.1:0.0000024148)89:0.0014491369,(KC959988.1:0.0000024148,KC959989.1:0.0007234271)79:0.0007287280)74:0.0006377300,((((KC959991.1:0.0000024148,(KC959990.1:0.0000024148,KC959997.1:0.0000024148)39:0.0000024148)34:0.0000024148,KC959998.1:0.0000024148)45:0.0000024148,(KC959999.1:0.0000024148,KC960000.1:0.0000024148)84:0.0000024148)99:0.0029286979,(KC959995.1:0.0021780604,KC959996.1:0.0000024148)44:0.0000024148)74:0.0015383080)97:0.0081687493)100:0.0520077010)100:0.0088809571);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t results/Trypanosoma_cruzi_iqtree.treefile -m "GTR{1.1046,4.23186,0.323015,2.73183,13.6466}+F{0.224885,0.297491,0.330439,0.147184}+I{0.30483}+G4{1.01205}" --length 1380
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s results/alin.aln-fasta.uniqueseq.phy --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s results/alin.aln-fasta.uniqueseq.phy --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Jun 26 10:30:45 2024
+Total CPU time used: 4.625 seconds (0h:0m:4s)
+Total wall-clock time used: 8.9685499 seconds (0h:0m:8s)
+

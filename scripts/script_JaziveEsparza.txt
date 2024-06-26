@@ -1,0 +1,27 @@
+    1  # enlista documentos
+    2  ls
+    3  # imprime directorio actual
+    4  pwd
+    5  # crea una carpeta
+    6  mkdir Habibi
+    7  iqtree2
+    8  cd OneDrive
+    9  cd Ecritorio
+   10  cd Escritorio/
+   11  ls
+   12  cd BIOINFORMÁTICA/
+   13  cd ProyectoFinalBio24/
+   14  LS 
+   15  cd results
+   16  ls
+   17  ls
+   18  iqtree2 -s results/alin.aln-fasta.uniqueseq.phy -m GTR+G+I -B 1000 -alrt 1000 -prefix results/Trypanosoma_cruzi_iqtree
+   19  iqtree2 -s results/alin.aln-fasta.uniqueseq.phy -m GTR+G+I -B 1000 -alrt 1000 -pre results/Trypanosoma_cruzi_iqtree
+   20  cd ..
+   21  iqtree2 -s results/alin.aln-fasta.uniqueseq.phy -m GTR+G+I -B 1000 -alrt 1000 -pre results/Trypanosoma_cruzi_iqtree
+   22  ls results
+   23  cd ..
+   24  cd ProyectoFinalBio24/
+   25  ls
+   26  cd scripts/
+   27  history > script_JaziveEsparza.txt
