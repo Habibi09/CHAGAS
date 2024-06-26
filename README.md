@@ -36,6 +36,7 @@
 
 
 
+<<<<<<< HEAD
 ----------------------------------------------------------------------
 
 
@@ -51,5 +52,17 @@
 ###### Se utilizaron las tres herramientas para poder diseñar y visualizar el arbol del gen HSP70 que se encuentra como archivo e imagen en la carpeta de resultados.
 
 
+=======
+
+###### **1. ¿Qué tipo de datos/input quieres usar?**
+###### Los datos serán secuencias de ADN del parásito, obtenidas de repositorios públicos como el NCBI Sequence Read Archive (SRA) y el Tritryp Database. Estas secuencias provienen de diferentes cepas y linajes del parásito, aislados de diversas regiones endémicas.
+
+###### **2. ¿En qué formato están tus datos?**
+###### Las secuencias de ADN suelen estar en formato FASTA o FASTQ.
+
+###### **3. ¿Qué quisieras hacer con estos datos?**
+###### - Alinear y comparar las secuencias para identificar variantes genéticas entre los diferentes linajes.
+###### - Construir árboles filogenéticos para explorar las relaciones evolutivas y la diversidad genética entre los linajes.
+>>>>>>> 3cafca06490b74c304700a0c439cf290790ecb17
 
 
